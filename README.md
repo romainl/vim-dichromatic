@@ -26,7 +26,7 @@ Thankfully, researchers across the world have been busy looking for color palett
 
 The image below shows the final palette used in Dichromatic, slightly modified from the colors above to fit in the standard [xterm palette]().
 
-![image]()
+![Dichromatic palette](http://romainl.github.io/vim-dichromatic/images/palette.png)
 
 ## Configuration
 
