@@ -10,21 +10,17 @@ Some of us — as much as 8% of the male population in some parts of the world �
 
 Color blindness comes in many forms, depending on what cones are missing or damaged or even if we are talking *rods*, but the end result is always the same: the person gets confused pretty easily when colors are too close to each other or fall into one of their blind spots or if they don't have enough contrast. If that wasn't enough, dichromia itself comes in three forms: *protanopia*, *deuteranopia* and *tritanopia* which have varying effects. Choosing the right colors is a difficult task when designing for "normal" vision but it should be apparent by now that designing for color blind users is at another level entirely.
 
-Here are three screenshots of another theme of mine illustrating the problem:
+Here is a screenshot of another theme of mine illustrating the problem:
 
-![protanopia]()
-
-![deuteranopia]()
-
-![tritanopia]()
+![Tritanopia](http://romainl.github.io/vim-dichromatic/images/apprentice-tritanopia.png)
 
 The colors in Apprentice are nice and all for us "normals" but they are obviously less than optimal for someone with, say… tritanopia. The problem is not limited to Vim, of course: maps, charts, traffic lights and all kinds of information systems are routinely designed without any thought for dichromia but that shouldn't be a comforting thought. We can do better.
 
-Thankfully, researchers across the world have been busy looking for color palettes suitable for *anybody*, color blind or not. One such effort produced the palette I used as a basis for Dichromatic:
+Thankfully, researchers across the world have been busy looking for color palettes suitable for *anybody*, color blind or not. [One such effort](https://personal.sron.nl/~pault/) produced the palette I used as a basis for Dichromatic:
 
-![image]()
+![SRON palette](http://romainl.github.io/vim-dichromatic/images/sron-palette.png)
 
-The image below shows the final palette used in Dichromatic, slightly modified from the colors above to fit in the standard [xterm palette]().
+The image below shows the "final" palette used in Dichromatic, slightly modified from the colors above to fit in the standard [xterm palette](https://upload.wikimedia.org/wikipedia/en/1/15/Xterm_256color_chart.svg).
 
 ![Dichromatic palette](http://romainl.github.io/vim-dichromatic/images/palette.png)
 
@@ -34,13 +30,13 @@ The image below shows the final palette used in Dichromatic, slightly modified f
 
 GUI Vim is pretty much the bee's knees, colorscheme-wise, so there's nothing to do here.
 
-### 256 colors environment
+### 256 colors terminal emulators
 
 Make sure your terminal emulator correctly tells Vim that it is capable of displaying 256 colors. It is usually done by setting the `TERM` environment variable to something like `xterm-256color` or `screen-256color`. How to do that depends on your terminal emulator so you should read its documentation if you are unsure about the exact method.
 
-### 16 colors environment
+### 16 colors terminal emulators
 
-If your terminal emulator can't display 256 colors or you don't want to change its default `TERM`, you can still use the values below to set its default "ANSI" colors.
+16 colors support to be added.
 
 ## Installation
 
