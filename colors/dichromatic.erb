@@ -36,19 +36,22 @@
     #                 "darkgrey", "grey", "white"
     # ]
     #
-    sky         = ["#87D7D7", 116, "black"]
-    teal        = ["#5FAF87", 72, "black"]
-    moss        = ["#008700", 28, "black"]
-    asparagus   = ["#AFAF00", 142, "black"]
-    cantaloupe  = ["#DFDF87", 186, "black"]
-    strawberry  = ["#D75F87", 168, "black"]
-    orchid      = ["#AF5FAF", 133, "black"]
-    rose        = ["#87005F", 89, "black"]
-    eggplant    = ["#00005F", 53, "black"]
+    sky         = ["#87D7D7", 116, "white"]
+    teal        = ["#5FAF87", 72, "white"]
+    moss        = ["#008700", 28, "white"]
+    asparagus   = ["#AFAF00", 142, "white"]
+    cantaloupe  = ["#DFDF87", 186, "white"]
+    strawberry  = ["#D75F87", 168, "white"]
+    orchid      = ["#AF5FAF", 133, "white"]
+    rose        = ["#87005F", 89, "white"]
+    eggplant    = ["#00005F", 53, "white"]
     white       = ["#FFFFFF", 15, "white"]
-    lightgray   = ["#AFAFAF", 145, "gray"]
-    darkgray    = ["#5F5F5F", 59, "gray"]
-    black       = ["#000000", 0, "black"]
+    lightergray = ["#D0D0D0", 252, "white"]
+    lightgray   = ["#A8A8A8", 248, "black"]
+    gray        = ["#808080", 244, "black"]
+    darkgray    = ["#585858", 240, "black"]
+    darkergray  = ["#303030", 236, "black"]
+    black       = ["#080808", 232, "black"]
 
     # Step 3: highlights
     #
@@ -75,10 +78,10 @@
     # The highlight groups below are fairly standard but some syntax scripts and
     # plugins may define their own. Feel free to append them to this array as needed.
     highlights = [
-        [ "Normal", "NONE", "NONE", "NONE" ],
+        [ "Normal", black, lightergray, "NONE" ],
         [ "NonText", "NONE", darkgray, "NONE" ],
 
-        [ "Comment", "NONE", darkgray, "NONE" ],
+        [ "Comment", "NONE", gray, "NONE" ],
         [ "Constant", "NONE", strawberry, "NONE" ],
         [ "Error", white, rose, "reverse" ],
         [ "Identifier", "NONE", orchid, "NONE" ],
@@ -105,8 +108,8 @@
 
         [ "Cursor", white, black, "NONE" ],
         [ "CursorColumn", rose, "NONE", "NONE" ],
-        [ "CursorLine", eggplant, "NONE", "NONE" ],
-        [ "CursorLineNr", eggplant, "NONE", "NONE" ],
+        [ "CursorLine", darkergray, "NONE", "NONE" ],
+        [ "CursorLineNr", darkergray, "NONE", "NONE" ],
 
         [ "helpLeadBlank", "NONE", "NONE", "NONE" ],
         [ "helpNormal", "NONE", "NONE", "NONE" ],
