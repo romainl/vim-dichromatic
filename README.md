@@ -4,9 +4,11 @@ A dark colorscheme for color blind vimmers, but not only.
 
 ---
 
+Humans are capable of perceiving a relatively large color spectrum thanks to special receptors in our retina called *cones*. Most of us have three types of cones to take care of the different wavelengths that compose visible light. That's called *trichromia*, it's the norm and most Vim colorschemes are designed against that norm.
+
 Some of us — as much as 8% of the male population in some parts of the world — have a missing or damaged cone, however, which prevents them from perceiving some colors. That condition is called *dichromia* or, coloquially, color blindness.
 
-Color blindness comes in many forms, depending on what cones are missing or damaged or even if we are talking *rods*, but the end result is always the same: the person gets confused pretty easily when colors are too close to each other or fall into one of their blind spots or if they don't have enough contrast. If that wasn't enough, dichromia itself comes in three forms: *protanopia*, *deuteranopia* and *tritanopia* which have varying effects. Choosing the right colors is a difficult task when designing for "normal" vision but it should be apparent by now that designing for color blind users is at another level entirely.
+Color blindness comes in many forms, depending on what cones are missing or damaged or even if we are talking *rods*, but the end result is always the same: the person gets confused pretty easily when colors are too close to each other or fall into one of their blind spots or if there's not enough contrast. If that wasn't enough, dichromia itself comes in three forms: *protanopia*, *deuteranopia* and *tritanopia* which have varying effects. Choosing the right colors is a difficult task when designing for "normal" vision but it should be apparent by now that designing for color blind users is at another level entirely.
 
 Here is a screenshot of another theme of mine illustrating the problem:
 
@@ -14,7 +16,7 @@ Here is a screenshot of another theme of mine illustrating the problem:
 
 The colors in Apprentice are nice and all for us "normals" but they are obviously less than optimal for someone with, say… tritanopia. The problem is not limited to Vim, of course: maps, charts, traffic lights and all kinds of information systems are routinely designed without any thought for dichromia but that shouldn't be a comforting thought. We can do better.
 
-Thankfully, researchers across the world have been busy looking for color palettes suitable for *anybody*, color blind or not. [One such effort](https://personal.sron.nl/~pault/) produced the palette I used as a basis for Dichromatic:
+Thankfully, researchers across the world have been busy designing color palettes suitable for *anybody*, color blind or not. [One such effort](https://personal.sron.nl/~pault/) produced the palette I used as a basis for Dichromatic:
 
 ![SRON palette](http://romainl.github.io/vim-dichromatic/images/sron-palette.png)
 
