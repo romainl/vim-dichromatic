@@ -12,6 +12,12 @@ Color blindness comes in many forms, depending on what cones are missing or dama
 
 Here is a screenshot of another theme of mine illustrating the problem:
 
+Normal vision:
+
+![Normal vision](http://romainl.github.io/vim-dichromatic/images/apprentice-normal-vision.png)
+
+Tritanopia:
+
 ![Tritanopia](http://romainl.github.io/vim-dichromatic/images/apprentice-tritanopia.png)
 
 The colors in Apprentice are nice and all for us "normals" but they are obviously less than optimal for someone with, say… tritanopia. The problem is not limited to Vim, of course: maps, charts, traffic lights and all kinds of information systems are routinely designed without any thought for dichromia but that shouldn't be a comforting thought. We can do better.
@@ -23,6 +29,24 @@ Thankfully, researchers across the world have been busy designing color palettes
 The image below shows the "final" palette used in Dichromatic, slightly modified from the colors above to fit in the standard [xterm palette](https://upload.wikimedia.org/wikipedia/en/1/15/Xterm_256color_chart.svg).
 
 ![Dichromatic palette](http://romainl.github.io/vim-dichromatic/images/palette.png)
+
+And here are screenshots of dichomatic, first without filter, for color blind users to form their opinion, then with various filters applied, for users with normal vision to get an idea of how color blind users may see it:
+
+Normal vision:
+
+![Normal vision](http://romainl.github.io/vim-dichromatic/images/dichromatic-normal-vision.png)
+
+Deuteranopia (common):
+
+![Deuteranopia](http://romainl.github.io/vim-dichromatic/images/dichromatic-deuteranopia.png)
+
+Protanopia (rare):
+
+![Protanopia](http://romainl.github.io/vim-dichromatic/images/dichromatic-protanopia.png)
+
+Tritanopia (very rare):
+
+![Tritanopia](http://romainl.github.io/vim-dichromatic/images/dichromatic-tritanopia.png)
 
 ## Configuration
 
