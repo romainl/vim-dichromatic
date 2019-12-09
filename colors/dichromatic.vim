@@ -13,9 +13,6 @@ let colors_name = "dichromatic"
 
 if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Normal ctermbg=232 ctermfg=252 cterm=NONE guibg=#080808 guifg=#D0D0D0 gui=NONE
-
-    set background=dark
-
     hi NonText ctermbg=NONE ctermfg=240 cterm=NONE guibg=NONE guifg=#585858 gui=NONE
     hi Comment ctermbg=NONE ctermfg=244 cterm=NONE guibg=NONE guifg=#808080 gui=NONE
     hi Constant ctermbg=NONE ctermfg=168 cterm=NONE guibg=NONE guifg=#D75F87 gui=NONE
@@ -79,9 +76,6 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
 
     hi Normal ctermbg=black ctermfg=grey cterm=NONE
-
-    set background=dark
-
     hi NonText ctermbg=NONE ctermfg=darkgrey cterm=NONE
     hi Comment ctermbg=NONE ctermfg=darkgrey cterm=NONE
     hi Constant ctermbg=NONE ctermfg=red cterm=NONE
