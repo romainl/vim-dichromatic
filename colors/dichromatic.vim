@@ -48,7 +48,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi PmenuSel ctermbg=133 ctermfg=232 cterm=NONE guibg=#AF5FAF guifg=#080808 gui=NONE
     hi PmenuThumb ctermbg=133 ctermfg=133 cterm=NONE guibg=#AF5FAF guifg=#AF5FAF gui=NONE
     hi FoldColumn ctermbg=NONE ctermfg=72 cterm=NONE guibg=NONE guifg=#5FAF87 gui=NONE
-    hi Folded ctermbg=72 ctermfg=232 cterm=NONE guibg=#5FAF87 guifg=#080808 gui=NONE
+    hi Folded ctermbg=NONE ctermfg=248 cterm=NONE guibg=NONE guifg=#A8A8A8 gui=NONE
     hi WildMenu ctermbg=53 ctermfg=15 cterm=NONE guibg=#00005F guifg=#FFFFFF gui=NONE
     hi SpecialKey ctermbg=NONE ctermfg=186 cterm=NONE guibg=NONE guifg=#DFDF87 gui=NONE
     hi DiffAdd ctermbg=28 ctermfg=232 cterm=NONE guibg=#008700 guifg=#080808 gui=NONE
@@ -58,7 +58,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi IncSearch ctermbg=232 ctermfg=133 cterm=reverse guibg=#080808 guifg=#AF5FAF gui=reverse
     hi Search ctermbg=186 ctermfg=232 cterm=NONE guibg=#DFDF87 guifg=#080808 gui=NONE
     hi Directory ctermbg=NONE ctermfg=72 cterm=NONE guibg=NONE guifg=#5FAF87 gui=NONE
-    hi MatchParen ctermbg=142 ctermfg=232 cterm=NONE guibg=#AFAF00 guifg=#080808 gui=NONE
+    hi MatchParen ctermbg=240 ctermfg=186 cterm=NONE guibg=#585858 guifg=#DFDF87 gui=NONE
     hi SpellBad ctermbg=89 ctermfg=232 cterm=NONE guibg=#87005F guifg=#080808 gui=NONE guisp=#87005F
     hi SpellCap ctermbg=72 ctermfg=232 cterm=NONE guibg=#5FAF87 guifg=#080808 gui=NONE guisp=#5FAF87
     hi SpellLocal ctermbg=142 ctermfg=232 cterm=NONE guibg=#AFAF00 guifg=#080808 gui=NONE guisp=#AFAF00
@@ -111,7 +111,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi PmenuSel ctermbg=darkred ctermfg=black cterm=NONE
     hi PmenuThumb ctermbg=darkred ctermfg=darkred cterm=NONE
     hi FoldColumn ctermbg=NONE ctermfg=green cterm=NONE
-    hi Folded ctermbg=green ctermfg=black cterm=NONE
+    hi Folded ctermbg=NONE ctermfg=grey cterm=NONE
     hi WildMenu ctermbg=darkblue ctermfg=white cterm=NONE
     hi SpecialKey ctermbg=NONE ctermfg=yellow cterm=NONE
     hi DiffAdd ctermbg=darkgreen ctermfg=black cterm=NONE
@@ -121,7 +121,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi IncSearch ctermbg=black ctermfg=darkred cterm=reverse
     hi Search ctermbg=yellow ctermfg=black cterm=NONE
     hi Directory ctermbg=NONE ctermfg=green cterm=NONE
-    hi MatchParen ctermbg=darkyellow ctermfg=black cterm=NONE
+    hi MatchParen ctermbg=darkgrey ctermfg=yellow cterm=NONE
     hi SpellBad ctermbg=darkmagenta ctermfg=black cterm=NONE
     hi SpellCap ctermbg=green ctermfg=black cterm=NONE
     hi SpellLocal ctermbg=darkyellow ctermfg=black cterm=NONE
