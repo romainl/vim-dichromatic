@@ -69,7 +69,12 @@ Use your favorite plugin manager or drop `dichromatic.vim` into:
 
 ## Usage
 
-Add the line below somewhere near the end of your `vimrc`:
+Make sure you have *either* of the following lines in your `vimrc`:
+
+    syntax on
+    syntax enable
+
+Add the line below somewhere near the end of the file:
 
     colorscheme dichromatic
 
