@@ -51,10 +51,10 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Folded ctermbg=NONE ctermfg=248 cterm=NONE guibg=NONE guifg=#A8A8A8 gui=NONE
     hi WildMenu ctermbg=53 ctermfg=15 cterm=NONE guibg=#00005F guifg=#FFFFFF gui=NONE
     hi SpecialKey ctermbg=NONE ctermfg=186 cterm=NONE guibg=NONE guifg=#DFDF87 gui=NONE
-    hi DiffAdd ctermbg=28 ctermfg=232 cterm=NONE guibg=#008700 guifg=#080808 gui=NONE
-    hi DiffChange ctermbg=116 ctermfg=232 cterm=NONE guibg=#87D7D7 guifg=#080808 gui=NONE
-    hi DiffDelete ctermbg=89 ctermfg=232 cterm=NONE guibg=#87005F guifg=#080808 gui=NONE
-    hi DiffText ctermbg=72 ctermfg=232 cterm=NONE guibg=#5FAF87 guifg=#080808 gui=NONE
+    hi DiffAdd ctermbg=232 ctermfg=111 cterm=reverse guibg=#080808 guifg=#87afff gui=reverse
+    hi DiffChange ctermbg=232 ctermfg=188 cterm=reverse guibg=#080808 guifg=#dfdfdf gui=reverse
+    hi DiffDelete ctermbg=232 ctermfg=222 cterm=reverse guibg=#080808 guifg=#ffdf87 gui=reverse
+    hi DiffText ctermbg=232 ctermfg=145 cterm=reverse guibg=#080808 guifg=#afafaf gui=reverse
     hi IncSearch ctermbg=232 ctermfg=133 cterm=reverse guibg=#080808 guifg=#AF5FAF gui=reverse
     hi Search ctermbg=186 ctermfg=232 cterm=NONE guibg=#DFDF87 guifg=#080808 gui=NONE
     hi Directory ctermbg=NONE ctermfg=72 cterm=NONE guibg=NONE guifg=#5FAF87 gui=NONE
@@ -114,10 +114,10 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Folded ctermbg=NONE ctermfg=grey cterm=NONE
     hi WildMenu ctermbg=darkblue ctermfg=white cterm=NONE
     hi SpecialKey ctermbg=NONE ctermfg=yellow cterm=NONE
-    hi DiffAdd ctermbg=darkgreen ctermfg=black cterm=NONE
-    hi DiffChange ctermbg=cyan ctermfg=black cterm=NONE
-    hi DiffDelete ctermbg=darkmagenta ctermfg=black cterm=NONE
-    hi DiffText ctermbg=green ctermfg=black cterm=NONE
+    hi DiffAdd ctermbg=black ctermfg=blue cterm=reverse
+    hi DiffChange ctermbg=black ctermfg=grey cterm=reverse
+    hi DiffDelete ctermbg=black ctermfg=yellow cterm=reverse
+    hi DiffText ctermbg=black ctermfg=darkgray cterm=reverse
     hi IncSearch ctermbg=black ctermfg=darkred cterm=reverse
     hi Search ctermbg=yellow ctermfg=black cterm=NONE
     hi Directory ctermbg=NONE ctermfg=green cterm=NONE

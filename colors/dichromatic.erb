@@ -59,6 +59,10 @@
     darkgray    = ["#585858", 240, "darkgrey"]
     darkergray  = ["#303030", 236, "black"]
     black       = ["#080808", 232, "black"]
+    DiffAdd     = ["#87afff", 111, "blue"]
+    DiffDelete  = ["#ffdf87", 222, "yellow"]
+    DiffChange  = ["#dfdfdf", 188, "grey"]
+    DiffText    = ["#afafaf", 145, "darkgray"]
 
     # Step 3: highlights
     #
@@ -146,10 +150,10 @@
         [ "WildMenu", eggplant, white, "NONE" ],
         [ "SpecialKey", "NONE", cantaloupe, "NONE" ],
 
-        [ "DiffAdd", moss, black, "NONE" ],
-        [ "DiffChange", sky, black, "NONE" ],
-        [ "DiffDelete", rose, black, "NONE" ],
-        [ "DiffText", teal, black, "NONE" ],
+        [ "DiffAdd", black, DiffAdd, "reverse" ],
+        [ "DiffChange", black, DiffChange, "reverse" ],
+        [ "DiffDelete", black, DiffDelete, "reverse" ],
+        [ "DiffText", black, DiffText, "reverse" ],
 
         [ "IncSearch", black, orchid, "reverse" ],
         [ "Search", cantaloupe, black, "NONE" ],
