@@ -1,16 +1,16 @@
 # Dichromatic
 
-A dark colorscheme for color blind vimmers, but not only.
+A dark color scheme for color blind vimmers, but not only.
 
 ---
 
-Humans are capable of perceiving a relatively large color spectrum thanks to special receptors in our retina called *cones*. Most of us have three types of cones to take care of the different wavelengths that compose visible light. That's called *trichromia*, it's the norm and most Vim colorschemes are designed against that norm.
+Humans are capable of perceiving a relatively large color spectrum thanks to special receptors in our retina called *cones*. Most of us have three types of cones to take care of the different wavelengths that compose visible light. That's called *trichromia*, it's the norm and most Vim color schemes are designed against that norm.
 
 Some of us — as much as 8% of the male population in some parts of the world — have a missing or damaged cone, however, which prevents them from perceiving some colors. That condition is called *dichromia* or, coloquially, color blindness.
 
 Color blindness comes in many forms, depending on what cones are missing or damaged or even if we are talking *rods*, but the end result is always the same: the person gets confused pretty easily when colors are too close to each other or fall into one of their blind spots or if there's not enough contrast. If that wasn't enough, dichromia itself comes in three forms: *protanopia*, *deuteranopia* and *tritanopia* which have varying effects. Choosing the right colors is a difficult task when designing for "normal" vision but it should be apparent by now that designing for color blind users is at another level entirely.
 
-Here is a screenshot of another theme of mine illustrating the problem:
+Here is a screenshot of another color scheme of mine illustrating the problem:
 
 Normal vision:
 
@@ -50,11 +50,11 @@ Tritanopia (very rare):
 
 ## Configuration
 
-This colorscheme is pretty much compatible with any reasonably recent Vim executed in any correctly set-up environment. "Compatible" in the sense that it will not break anything but it is only guaranteed to work the way it's supposed to work in GUI Vim (GVim, MacVim) and in TUI Vim *in 256color-ready terminal emulators*. 8color-ready and 16color-ready terminal emulators are not directly supported at the moment but they will. Stay tuned.
+This color scheme is pretty much compatible with any reasonably recent Vim executed in any correctly set-up environment. "Compatible" in the sense that it will not break anything but it is only guaranteed to work the way it's supposed to work in GUI Vim (GVim, MacVim) and in TUI Vim *in 256color-ready terminal emulators*. 8color-ready and 16color-ready terminal emulators are not directly supported at the moment but they may. Stay tuned.
 
 ### GVim/MacVim
 
-GUI Vim is pretty much the bee's knees, colorscheme-wise, so there's nothing to do here.
+GUI Vim is pretty much the bee's knees, color scheme-wise, so there's nothing to do here.
 
 ### 256 colors terminal emulators
 
