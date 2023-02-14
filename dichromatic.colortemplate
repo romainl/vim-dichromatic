@@ -1,0 +1,223 @@
+Full name:   dichromatic
+Short name:  dichromatic
+Description: A 'dark' colorscheme for color blind vimmers. But not only.
+Author:      Original author Romain Lafourcade <romainlafourcade@gmail.com>
+Website:     https://github.com/vim/colorschemes
+License:     Same as Vim
+
+; Common linked groups {{{
+Boolean                -> Constant
+Character              -> Constant
+Conditional            -> Statement
+CurSearch              -> Search
+CursorLineFold         -> FoldColumn
+CursorLineSign         -> SignColumn
+Debug                  -> Special
+Define                 -> PreProc
+Delimiter              -> Special
+EndOfBuffer            -> NonText
+Exception              -> Statement
+Float                  -> Number
+Function               -> Identifier
+Include                -> PreProc
+Keyword                -> Statement
+Label                  -> Statement
+Macro                  -> PreProc
+Operator               -> Statement
+PreCondit              -> PreProc
+Repeat                 -> Statement
+SpecialChar            -> Special
+SpecialComment         -> Special
+StorageClass           -> Type
+Structure              -> Type
+Tag                    -> Special
+TracesSearch           -> Search
+Typedef                -> Type
+helpBacktick           -> Ignore
+helpBar                -> Ignore
+helpBoolean            -> Constant
+helpCharacter          -> Constant
+helpCommand            -> Comment
+helpComment            -> Comment
+helpConditional        -> Statement
+helpConstant           -> Constant
+helpDebug              -> Special
+helpDefine             -> PreProc
+helpDelimiter          -> Special
+helpDeprecated         -> Todo
+helpError              -> Error
+helpExample            -> Comment
+helpException          -> Statement
+helpFloat              -> Number
+helpFunction           -> Identifier
+helpHeader             -> PreProc
+helpHeadline           -> Statement
+helpHyperTextEntry     -> String
+helpHyperTextJump      -> Identifier
+helpIdentifier         -> Identifier
+helpIgnore             -> Ignore
+helpInclude            -> PreProc
+helpKeyword            -> Statement
+helpLabel              -> Statement
+helpMacro              -> PreProc
+helpNotVi              -> Special
+helpNote               -> Todo
+helpNumber             -> Number
+helpOperator           -> Statement
+helpOption             -> Type
+helpPreCondit          -> PreProc
+helpPreProc            -> PreProc
+helpRepeat             -> Statement
+helpSectionDelim       -> PreProc
+helpSpecial            -> Special
+helpSpecialChar        -> Special
+helpSpecialComment     -> Special
+helpStar               -> Ignore
+helpStatement          -> Statement
+helpStorageClass       -> Type
+helpString             -> String
+helpStructure          -> Type
+helpTag                -> Special
+helpTodo               -> Todo
+helpType               -> Type
+helpTypedef            -> Type
+helpURL                -> String
+helpUnderlined         -> Underlined
+helpVim                -> Identifier
+helpWarning            -> Todo
+; }}}
+
+Background: dark
+
+; Color palette {{{
+Color: boldSnail #AFAF00 ~
+Color: busyEagle #7f7f7f ~
+Color: busyHeron #afafaf ~
+Color: busyTapir #00005F ~
+Color: calmStoat #ffdf87 ~
+Color: coolSaola #87D7D7 ~
+Color: cuteCoati #5faf87 ~
+Color: cuteHorse #FFFFFF ~
+Color: cuteLiger #D0D0D0 ~
+Color: easyZorse #87d7d7 ~
+Color: evilCrane #303030 ~
+Color: evilZebra #D75F87 ~
+Color: gladCamel #dfdf87 ~
+Color: glumGuppy #af5faf ~
+Color: goodEagle #afaf00 ~
+Color: hurtSnail #87afff ~
+Color: hurtZorse #a8a8a8 ~
+Color: lazyLiger #00005f ~
+Color: lazyPrawn #d3d3d3 ~
+Color: lazySloth #000000 ~
+Color: longMacaw #87005F ~
+Color: longSquid #90ee90 ~
+Color: niceSheep #808080 ~
+Color: openBooby #d75f87 ~
+Color: paleEagle #ffffff ~
+Color: paleSquid #008700 ~
+Color: realHuman #a9a9a9 ~
+Color: realSkunk #585858 ~
+Color: richBooby #dfdfdf ~
+Color: richDhole #AF5FAF ~
+Color: richPrawn #d0d0d0 ~
+Color: soreHeron #87005f ~
+Color: sourOtter #DFDF87 ~
+Color: warmMolly #5FAF87 ~
+Color: zanyCoral #080808 ~
+
+Term colors: zanyCoral richDhole paleSquid boldSnail busyTapir longMacaw coolSaola cuteLiger niceSheep evilZebra warmMolly sourOtter coolSaola evilZebra coolSaola cuteHorse
+; }}}
+
+
+Variant: gui 256
+
+; Highlight groups {{{
+Normal                 richPrawn  zanyCoral
+ColorColumn            richPrawn  glumGuppy
+ColortemplateInfoBg    richPrawn  zanyCoral
+ColortemplateInfoBlack richPrawn  lazySloth
+ColortemplateInfoFg    richPrawn  zanyCoral
+ColortemplateInfoSp    richPrawn  zanyCoral
+Comment                niceSheep  zanyCoral
+Conceal                lazyPrawn  realHuman
+Constant               openBooby  zanyCoral
+Cursor                 zanyCoral  paleEagle
+CursorColumn           richPrawn  soreHeron
+CursorIM               richPrawn  zanyCoral
+CursorLine             richPrawn  evilCrane
+CursorLineNr           richPrawn  evilCrane
+DiffAdd                hurtSnail  zanyCoral   reverse
+DiffChange             richBooby  zanyCoral   reverse
+DiffDelete             calmStoat  zanyCoral   reverse
+DiffText               busyHeron  zanyCoral   reverse
+Directory              cuteCoati  zanyCoral
+Error                  soreHeron  paleEagle   reverse
+ErrorMsg               paleEagle  soreHeron
+FoldColumn             cuteCoati  zanyCoral
+Folded                 hurtZorse  zanyCoral
+Identifier             glumGuppy  zanyCoral
+Ignore                 richPrawn  zanyCoral
+IncSearch              glumGuppy  zanyCoral   reverse
+LineNr                 easyZorse  zanyCoral
+LineNrAbove            richPrawn  zanyCoral
+LineNrBelow            richPrawn  zanyCoral
+MatchParen             gladCamel  realSkunk
+ModeMsg                zanyCoral  goodEagle
+MoreMsg                goodEagle  zanyCoral
+NonText                realSkunk  zanyCoral
+Number                 openBooby  zanyCoral
+Pmenu                  zanyCoral  gladCamel
+PmenuSbar              gladCamel  goodEagle
+PmenuSel               zanyCoral  glumGuppy
+PmenuThumb             glumGuppy  glumGuppy
+PreProc                gladCamel  zanyCoral
+Question               cuteCoati  zanyCoral
+QuickFixLine           realSkunk  paleEagle
+Search                 zanyCoral  gladCamel
+SignColumn             gladCamel  zanyCoral
+Special                paleEagle  zanyCoral
+SpecialKey             gladCamel  zanyCoral
+SpellBad               zanyCoral  soreHeron   guisp=soreHeron
+SpellCap               zanyCoral  cuteCoati   guisp=cuteCoati
+SpellLocal             zanyCoral  goodEagle   guisp=goodEagle
+SpellRare              zanyCoral  glumGuppy   guisp=glumGuppy
+Statement              glumGuppy  zanyCoral
+StatusLine             realSkunk  paleEagle
+StatusLineNC           paleEagle  realSkunk
+StatusLineTerm         zanyCoral  longSquid   bold
+StatusLineTermNC       zanyCoral  longSquid
+String                 goodEagle  zanyCoral
+TabLine                paleEagle  realSkunk
+TabLineFill            realSkunk  realSkunk
+TabLineSel             realSkunk  paleEagle
+Terminal               richPrawn  zanyCoral
+Title                  cuteCoati  zanyCoral
+Todo                   richPrawn  zanyCoral   reverse
+ToolbarButton          lazySloth  lazyPrawn   bold
+ToolbarLine            richPrawn  busyEagle
+Type                   easyZorse  zanyCoral
+Underlined             richPrawn  zanyCoral   underline
+VertSplit              realSkunk  realSkunk
+Visual                 zanyCoral  easyZorse
+VisualNOS              zanyCoral  glumGuppy
+WarningMsg             zanyCoral  openBooby
+WildMenu               paleEagle  lazyLiger
+debugBreakpoint        richPrawn  zanyCoral
+debugPC                richPrawn  zanyCoral
+helpGraphic            richPrawn  zanyCoral
+helpLeadBlank          richPrawn  zanyCoral
+helpNormal             richPrawn  zanyCoral
+htmlArg                richPrawn  zanyCoral
+htmlBold               richPrawn  zanyCoral
+htmlEndTag             richPrawn  zanyCoral
+htmlItalic             richPrawn  zanyCoral
+htmlLink               richPrawn  zanyCoral
+htmlSpecialTagName     richPrawn  zanyCoral
+htmlTag                richPrawn  zanyCoral
+htmlTagName            richPrawn  zanyCoral
+lCursor                zanyCoral  richPrawn
+xmlEndTag              richPrawn  zanyCoral
+xmlTag                 richPrawn  zanyCoral
+xmlTagName             richPrawn  zanyCoral
+; }}}
